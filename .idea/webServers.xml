@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e2acc023-86c5-47cb-ade6-e28b7c62e490" name="csc470.dsu.ehretwt.dev" url="https://csc470.dsu.ehretwt.dev">
+        <fileTransfer accessType="SFTP" host="csc470.dsu.ehretwt.dev" port="22" sshConfigId="555582b1-edd6-499a-ae00-e264b7efd574" sshConfig="zach@csc470.dsu.ehretwt.dev:22 password">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" dataProtectionLevel="Private" forceListCommand="true" keepAliveCommand="LIST" keepAliveTimeout="0" shareSSLContext="true" showHiddenFiles="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="csc470.dsu.ehretwt.dev" id="555582b1-edd6-499a-ae00-e264b7efd574" port="22" nameFormat="DESCRIPTIVE" username="zach" />
+    </configs>
+  </component>
+</project>

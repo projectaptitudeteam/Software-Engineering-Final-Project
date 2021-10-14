@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" promptOnRemoteOverwrite="CHECK_TIMESTAMP" serverName="csc470.dsu.ehretwt.dev" remoteFilesAllowedToDisappearOnAutoupload="false" notifyRemoteChanges="true">
+    <serverData>
+      <paths name="csc470.dsu.ehretwt.dev">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www/csc470.dsu.ehretwt.dev/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
