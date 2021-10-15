@@ -4,12 +4,13 @@
 ?>
 <div class="bg-img-university bg-size-cover bg-repeat-no-repeat bg-position-center mmw-100vw mmh-100vh">
     <div class="bg-dark-tint-50 mmw-100vw mmh-100vh d-flex align-items-center">
-        <div class="container-sm bg-white login-container">
+        <div class="container-sm bg-white login-container rounded bx-shadow-0-0-lg">
             <div class="row">
                 <div class="col m-0 p-0">
                     <div class="m-3 p-3 rounded bg-light">
                         <h1 class="fw-bold mb-3">Welcome.</h1>
                         <h4 class="text-center">Enter your credentials</h4>
+                        <?php WidgetFactory::bannerMessage($bannerMessage ?? null); ?>
                         <form action="/?c=0&a=authenticate" method="POST">
                             <label for="current-username">Username</label>
                             <div class="mb-3">
@@ -38,7 +39,8 @@
                                     <p class="mt-0 mb-0 mx-0 p-0 text-danger fw-bold"><?php echo $error_current_role; ?></p>
                                 <?php endif; ?>
                             </div>
-                            <p class="text-end"><input type="submit" class="btn btn-success" value="Login"></p>
+                            <input type="submit" class="w-100 btn btn-success" value="Login">
+                            <p class="text-center m-2 p-0"><a href="/?c=0&a=register">Register</a></p>
                         </form>
                     </div>
                 </div>
