@@ -80,6 +80,40 @@
     overflow-y: hidden;
 }
 
+.overflow-y-scroll {
+    overflow-y: auto !important;
+    max-height: 95%;
+}
+
+/* CUSTOM SCROLLBAR 01 */
+.custom-scrollbar-01::-webkit-scrollbar {
+    width: 8px;
+}
+.custom-scrollbar-01::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.custom-scrollbar-01::-webkit-scrollbar-thumb {
+    background: #006ad1;
+    border-radius: 3px;
+}
+.custom-scrollbar-01::-webkit-scrollbar-thumb:hover {
+    background: #004385;
+}
+
+/* CUSTOM SCROLLBAR 02 */
+.custom-scrollbar-02::-webkit-scrollbar {
+    width: 8px;
+}
+.custom-scrollbar-02::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.custom-scrollbar-02::-webkit-scrollbar-thumb {
+    background: #a9a9a9;
+    border-radius: 3px;
+}
+.custom-scrollbar-02::-webkit-scrollbar-thumb:hover {
+    background: #838383;
+}
 
 
 /* === CUSTOM CONTAINERS */
