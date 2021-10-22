@@ -1,5 +1,7 @@
 <?php
 
+require_once __DIR__ . "interfaces/RoleInterface.php";
+
 class Role implements RoleInterface
 {
     public function __construct(private int $id, private string $name, private string $displayName) {
