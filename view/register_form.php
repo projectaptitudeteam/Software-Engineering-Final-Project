@@ -4,7 +4,7 @@
 ?>
 <div class="bg-img-university bg-size-cover bg-repeat-no-repeat bg-position-center mmw-100vw mmh-100vh">
     <div class="bg-dark-tint-50 mmw-100vw mmh-100vh d-flex align-items-center">
-        <div class="container-sm bg-white login-container rounded bx-shadow-0-0-lg">
+        <div class="container-sm my-3 bg-white login-container rounded bx-shadow-0-0-lg overflow-y-scroll custom-scrollbar-01">
             <div class="row">
                 <div class="col m-0 p-0">
                     <div class="m-3 p-3 rounded bg-light">
@@ -68,7 +68,7 @@
                                 <?php endif; ?>
                             </div>
                             <input type="submit" class="w-100 btn btn-success" value="Register">
-                            <p class="text-center m-2 p-0"><a href="/?c=0&a=login">Login</a></p>
+                            <p class="text-center m-2 p-0"><a href="/?c=0&a=login">Return to Login</a></p>
                         </form>
                     </div>
                 </div>
