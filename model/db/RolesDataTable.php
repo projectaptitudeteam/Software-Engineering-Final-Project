@@ -8,7 +8,7 @@ class RolesDataTable
      * Get all rolls from the database
      * @return array|false
      */
-    public function getRoles() : array|false {
+    public static function getRoles() : array|false {
         $db = Database::getDB();
         $query = "SELECT * FROM roles WHERE disabled = 0";
         $statement = $db->prepare($query);
@@ -28,7 +28,7 @@ class RolesDataTable
      * @param string $name
      * @return int|false
      */
-    public function getRoleIdFromName(string $name) : int|false {
+    public static function getRoleIdFromName(string $name) : int|false {
         $db = Database::getDB();
         $query = 'SELECT id FROM roles WHERE name=:name AND disabled = 0';
         $statement = $db->prepare($query);
